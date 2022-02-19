@@ -1,0 +1,113 @@
+# a = input()
+# print(a*2)
+
+# a = int(input())
+# print(a+10)
+
+# a = int(input())
+# if a%2 == 0:
+#     print("짝수")
+# else:
+#     print("홀수")
+
+# a = int(input())
+# if a+20 >= 255:
+#     print(255)
+# else:
+#     print(a+20)
+
+# a = int(input())
+# a -= 20
+# if a > 255:
+#     print(255)
+# elif a < 0:
+#     print(0)
+# else:
+#     print(a)
+
+# if 현재시간 [3:] == '00':
+#     print("정각 입니다.")
+# else:
+#     print("정각이 아닙니다.")
+
+# fruit = ["사과","포도","홍시"]
+# a = input("좋아하는 과일은?")
+# if a in fruit:
+#     print("정답입니다.")
+# else:
+#     print("오답입니다.")
+
+# warn_investmeny_list = ["Microsoft","Google","Never","Kakao","SAMSUNG","LG"]
+# a = input("투자 경고 종목은?")
+# if a in warn_investmeny_list:
+#     print("투자종목임")
+# else:
+#     print("투자종목 아님")
+
+# fruit = {"봄" : "딸기", "여름" : "토마토", "가을" : "사과"}
+# a = input("좋아하는 계절은?")
+# if a in fruit:
+#     print("정답")
+# else:
+#     print("오답")
+
+# fruit = {"봄" : "딸기", "여름" : "토마토", "가을" : "사과"}
+# a = input("좋아하는 과일은?")
+# if fruit.values():
+#     print("정답")
+# else:
+#     print("오답")
+
+# a = input()
+# if a.islower():
+#     print(a.upper())
+# else:
+#     print(a.lower())
+
+# a = int(input())
+# if a <= 100 and a >= 81:
+#     print("A")
+# elif a <= 80 and a >= 61:
+#     print("B")
+# elif a <= 60 and a >= 41:
+#     print("C")
+# elif a <= 40 and a >= 21:
+#     print("D")
+# elif a <= 20 and a >= 0:
+#     print("F")
+
+# a = {"달러" : 1167,"엔" : 1.096,"유로" : 1268,"위안" : 171}
+# b = input()
+# num, currecy = a.split()
+# print(float(num)* a[currecy], "원")
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if  a< b< c:
+#     print(c)
+# if c< b< a:
+#     print(a)
+# if a< c< b:
+#     print(b)
+
+# a = input("번호")
+# b = a.split("-")[0]
+# if b =="011":
+#     com = "skt"
+# elif b == "016":
+#     com = "kt"
+# elif b == "019":
+#     com = "lgu"
+# else:
+#     com = "알수없음"
+# print("당신은 %s 사용자입니다."%(com))
+
+# a = input()
+# a = a[:3]
+# if a in ["010","011","012"]:
+#     print("강북구")
+# elif a in ["013","014","015"]:
+#     print("도봉구")
+# else:
+#     print("노원구")
